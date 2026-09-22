@@ -1,0 +1,36 @@
+{
+  "schema_version": "2",
+  "pack": {
+    "id": "idea-scout-pack",
+    "version": "1.0.0",
+    "protocol": 1,
+    "core_prompt_token_budget": 3500,
+    "targets": ["antigravity", "claude", "cursor", "codex", "gemini", "aider"]
+  },
+  "skills": [
+    {
+      "id": "idea-scout",
+      "summary": "Systematically map the prior art, academic depth, code implementations, and open frontier of any concept across the internet.",
+      "delivery": ["cli", "workspace", "agent"],
+      "suites": ["research", "ideation", "architecture"],
+      "activation": "classified",
+      "task_types": [
+        "idea-scout",
+        "prior-art-search",
+        "competitive-analysis",
+        "landscape-investigation"
+      ],
+      "prompt_byte_budget": 14000,
+      "conflicts": [],
+      "precedence": 100,
+      "guardrails": [
+        "verify_urls_before_citing",
+        "no_hallucinated_citations",
+        "mandatory_graveyard_analysis",
+        "patent_legal_disclaimer_for_commercial"
+      ],
+      "entry_condition": "user requests prior art, novelty check, competitor landscape, or expresses curiosity about existing research/tools",
+      "stop_condition": "Idea Scout Report synthesized with verified citations, maturity rating, and tactical next steps"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "speculative-tree-decoding",
+    "prompt": "Has anyone explored speculative decoding where candidate tokens are drafted as a tree and verified concurrently in a single forward pass?",
+    "expected_category": "active_research",
+    "expected_maturity_range": [3.0, 4.0],
+    "key_entities": ["Medusa", "EAGLE", "vLLM", "Leviathan"],
+    "notes": "Must cite EAGLE and Medusa, note tree attention kernels, and benchmark acceptance rates."
+  },
+  {
+    "id": "browser-p2p-neural-training",
+    "prompt": "I want to build a volunteer computing network where users donate spare GPU in their browser using WebGPU to train foundation LLMs together over WebRTC.",
+    "expected_category": "graveyard",
+    "expected_maturity_range": [1.5, 2.5],
+    "key_entities": ["Hivemind", "Petals", "All-Reduce", "NVLink"],
+    "notes": "Must identify interconnect bandwidth wall (InfiniBand vs Wi-Fi) and recommend pivot to inference or federated LoRA."
+  },
+  {
+    "id": "local-first-sqlite-crdt-sync",
+    "prompt": "Is there research or existing tools for local-first web applications using SQLite in WASM synced to a central server via CRDTs?",
+    "expected_category": "commercial_inflection",
+    "expected_maturity_range": [4.0, 4.5],
+    "key_entities": ["CR-SQLite", "ElectricSQL", "PowerSync", "vlcn.io"],
+    "notes": "Must cite active open source libraries and commercial sync engines."
+  },
+  {
+    "id": "lossless-random-hash-compressor",
+    "prompt": "I have an algorithm idea to losslessly compress random 256-bit SHA-256 hashes by 50% using recursive arithmetic coding.",
+    "expected_category": "impossible_bound",
+    "expected_maturity_range": [0.0, 0.5],
+    "key_entities": ["Shannon entropy", "Pigeonhole principle", "Kolmogorov complexity"],
+    "notes": "Must trigger Auto-Clarity Circuit Breaker: lossless compression of true random data violates Shannon entropy."
+  }
+]

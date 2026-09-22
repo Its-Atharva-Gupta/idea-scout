@@ -1,0 +1,42 @@
+{
+  "name": "idea-scout",
+  "version": "1.0.0",
+  "description": "Systematically map the prior art, academic depth, open-source code, and commercial landscape of any raw idea or product concept across LLM coding agents.",
+  "main": "bin/install.js",
+  "bin": {
+    "idea-scout": "bin/install.js"
+  },
+  "scripts": {
+    "test": "python3 scripts/validate_skill.py && python3 evals/measure.py --all",
+    "validate": "python3 scripts/validate_skill.py",
+    "evals": "python3 evals/measure.py --all",
+    "install-local": "node bin/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Its-Atharva-Gupta/idea-scout.git"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "skills",
+    "antigravity",
+    "claude-code",
+    "codex",
+    "hermes",
+    "openclaw",
+    "cursor",
+    "windsurf",
+    "cline",
+    "aider",
+    "idea-scout",
+    "prior-art",
+    "research"
+  ],
+  "author": "Atharva Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Its-Atharva-Gupta/idea-scout/issues"
+  },
+  "homepage": "https://github.com/Its-Atharva-Gupta/idea-scout#readme"
+}
