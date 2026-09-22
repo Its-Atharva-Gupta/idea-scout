@@ -31,6 +31,8 @@ irm https://raw.githubusercontent.com/Its-Atharva-Gupta/idea-scout/main/install.
 ### Universal Agent Skills Protocol (`npx skills`)
 ```bash
 npx skills add Its-Atharva-Gupta/idea-scout -g
+# Note: For Antigravity, add the agent flag explicitly:
+npx skills add Its-Atharva-Gupta/idea-scout -a antigravity -g
 ```
 
 ---

@@ -21,6 +21,12 @@ irm https://raw.githubusercontent.com/Its-Atharva-Gupta/idea-scout/main/install.
 npx skills add Its-Atharva-Gupta/idea-scout -g
 ```
 
+> **Note on Antigravity with `npx skills`**: The upstream `skills` CLI hides Antigravity from its interactive selection menu by default (`showInUniversalPrompt: false`). To install to Antigravity via `npx skills`, supply the agent flag explicitly:
+> ```bash
+> npx skills add Its-Atharva-Gupta/idea-scout -a antigravity -g
+> ```
+> Alternatively, the 1-liner (`curl -fsSL ... | bash` or `npx -y github:Its-Atharva-Gupta/idea-scout`) auto-detects and installs to Antigravity automatically.
+
 ---
 
 ## What the 1-Liner Does
